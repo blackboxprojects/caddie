@@ -15,35 +15,115 @@ Caddie replaces a drawer full of single-purpose utilities with one app in your m
 
 ## Features
 
+Click a feature to see what it does.
+
 ### Layout
-- **Desktop & Dock:** a replacement dock with window previews, on any screen edge or display. It can hide Apple's Dock and puts it back when you turn the option off.
-- **Menu Bar:** tucks menu bar icons behind an arrow until you need them. Sort icons into Shown, Hidden and Always Hidden, and pick the arrow's look and the spacing between icons.
+
+<details>
+<summary><b>Desktop &amp; Dock</b> · a dock of your own, with window previews</summary>
+<br>
+<ul><li>A replacement dock you can put on any screen edge, on the main display, the display under the pointer, a chosen display or every display.</li><li>Hover an app to preview its windows.</li><li>Can hide Apple's Dock; the original settings are saved and put back when you turn the option or the feature off, or quit.</li></ul>
+</details>
+<details>
+<summary><b>Menu Bar</b> · tuck icons behind an arrow</summary>
+<br>
+<ul><li>Sort menu bar icons into Shown, Hidden (revealed when you click the arrow) and Always Hidden (revealed with Option-click).</li><li>Icons can hide again by themselves after a few seconds.</li><li>Pick the arrow's look and switch between standard and compact spacing between icons.</li></ul>
+</details>
 
 ### Utilities
-- **Monitor:** a panel under the Caddie icon showing network traffic by app, CPU, memory, disk, battery and temperature, with alerts like "CPU above 90% for 5 minutes."
-- **Security:** a score out of 100 for this Mac's protections (FileVault, firewall, Gatekeeper and more). It also lists what starts at login, plus extensions and certificates, and alerts you when they change. When macOS blocks an app, you can allow just that app here instead of digging through System Settings. Powered by [osquery](https://osquery.io), built into Caddie, so there's nothing extra to install.
-- **Screenshot:** capture an area, a window or a whole screen, including scrolling captures. Then annotate, pin the shot on screen, or copy it.
-- **World Clock:** every city you care about side by side, with a strip of hours to find a meeting time at a glance.
-- **Web Browser:** sends each link to the right browser, based on the app you clicked it in, the site, or both. Hold ⌥ Option while clicking a link to pick a browser.
-- **Power Actions:** extra Finder right-click actions, like new file here, copy path, open in Terminal, and move to or copy to your favourite folders.
-- **Cleaning Mode:** locks the keyboard and blacks out the screen while you wipe them down.
+
+<details>
+<summary><b>Monitor</b> · what your Mac is doing, under the Caddie icon</summary>
+<br>
+<ul><li>Click the Caddie icon for a panel with tabs for network, system and security.</li><li>Network: which apps are talking to the internet and where to, with the country of each connection (worked out on your Mac, offline).</li><li>System: CPU, memory, disk, battery and temperature.</li><li>Alerts such as "CPU usage above 90% for 5 minutes", shown as notifications.</li></ul>
+</details>
+<details>
+<summary><b>Security</b> · a score out of 100 and alerts when things change</summary>
+<br>
+<ul><li>A score for this Mac's protections: System Integrity Protection, FileVault, Gatekeeper, firewall, screen lock, secure boot, sharing services and AirDrop. Hover it to see what costs points.</li><li>Watched lists: what starts at login, system and kernel extensions, browser extensions, keyboard taps and trusted certificates. You're alerted when something is added.</li><li>When macOS blocks an app you downloaded, it shows up here with an <b>Allow</b> button, so you don't have to hunt for "Open Anyway" in System Settings.</li><li>Powered by <a href="https://osquery.io">osquery</a>, built into Caddie, so there's nothing extra to install.</li></ul>
+</details>
+<details>
+<summary><b>Screenshot</b> · capture, annotate, pin</summary>
+<br>
+<ul><li>Shortcuts for an area, a window or the screen under the pointer, plus scrolling captures of long pages.</li><li>An editor for arrows, text, highlights, numbered steps and blur.</li><li>Pin a shot so it floats over your other windows, or copy and drag it anywhere.</li></ul>
+</details>
+<details>
+<summary><b>World Clock</b> · every city side by side</summary>
+<br>
+<ul><li>A globe in the menu bar opens your cities with a strip of hours lined up, so each column is the same moment. Hover a column to see every city at that hour.</li><li>Add any city, drag to reorder, and pick a home city, theme and font.</li></ul>
+</details>
+<details>
+<summary><b>Web Browser</b> · each link to the right browser</summary>
+<br>
+<ul><li>Caddie becomes your default browser and hands each link to a real one, chosen by the app the link was clicked in, the website, or both.</li><li>Hold ⌥ Option while clicking any link to pick the browser yourself.</li></ul>
+</details>
+<details>
+<summary><b>Power Actions</b> · more in Finder's right-click menu</summary>
+<br>
+<ul><li>Right-click in a folder: New File, Open in Terminal, Copy Path and more.</li><li>Right-click files: Copy To and Move To your favourite folders, copy their paths, and more.</li></ul>
+</details>
+<details>
+<summary><b>Cleaning Mode</b> · wipe your keyboard and screen safely</summary>
+<br>
+<ul><li>Locks the keyboard and blacks out the screen while you clean them, then gives them back.</li></ul>
+</details>
 
 ### Productivity
-- **Clipboard:** a history of text, links, images and files you copy. Hold ⌘ after ⌘V to search and paste anything from it. Nothing leaves your Mac.
-- **Action Panel:** one shortcut opens a grid of your favourite actions, each on its own key.
+
+<details>
+<summary><b>Clipboard</b> · history you can search and paste from</summary>
+<br>
+<ul><li>Keeps the text, links, images and files you copy, newest first, for as long or as many items as you choose.</li><li>Keep ⌘ held after ⌘V and a ring opens with search and filters, so you can paste anything from your history.</li><li>Pure Paste strips formatting. Nothing leaves your Mac.</li></ul>
+</details>
+<details>
+<summary><b>Action Panel</b> · your favourite actions, one key each</summary>
+<br>
+<ul><li>One shortcut opens a grid of actions from Caddie's features. Press a tile's key, use the arrow keys, or click.</li></ul>
+</details>
 
 ### Housekeeping
-- **App Manager:** drop an app in to uninstall it along with the files it left behind. The Updates tab lists Homebrew and App Store apps with new versions and can upgrade Homebrew apps by itself.
-- **System Cleaner:** finds caches, logs, leftovers from removed apps and other space you can get back. You choose what goes, and it goes to the Trash.
+
+<details>
+<summary><b>App Manager</b> · uninstall apps and keep them updated</summary>
+<br>
+<ul><li><b>Uninstall:</b> drop an app in and Caddie lists it with the files it left in your Library (support files, caches, preferences, login items) and moves them all to the Trash.</li><li><b>Updates:</b> lists Homebrew and App Store apps that have new versions. Upgrade Homebrew apps with one click, or let Caddie upgrade them automatically.</li></ul>
+</details>
+<details>
+<summary><b>System Cleaner</b> · find space you can get back</summary>
+<br>
+<ul><li>Scans caches, logs, leftovers from removed apps and more, listed by category, biggest first.</li><li>Nothing is removed until you choose; what you pick goes to the Trash.</li></ul>
+</details>
 
 ### Keyboard
-- **Keyboard Shortcuts:** turn Caps Lock (or another key) into a master key, or double-tap a modifier, to open apps, links, files or any Caddie action.
-- **Window Switcher:** ⌘Tab through every window, not just apps. ⌘` switches between the windows of the app in front. Both shortcuts can be changed.
+
+<details>
+<summary><b>Window Switcher</b> · switch between windows, not just apps</summary>
+<br>
+<ul><li>⌘Tab shows every window; ⌘` shows the windows of the app in front. Both shortcuts can be changed.</li><li>A quick tap flips between your last two windows.</li></ul>
+</details>
+<details>
+<summary><b>Keyboard Shortcuts</b> · a master key and double-taps</summary>
+<br>
+<ul><li>Turn Caps Lock (or another key) into a master key: hold it and press another key to open an app, a link, a file or any Caddie action.</li><li>Or trigger actions by double-tapping, triple-tapping or holding a modifier key.</li></ul>
+</details>
 
 ### And
-- **Updates itself** from this page's releases. Each update is checked to be signed by the same developer before it's installed.
-- **Permissions page:** shows which macOS permissions Caddie has and which features need them, with a button to allow each one.
-- **Private:** no account, no analytics. The network is used only to check for updates, and by the features you turn on that need it (like App Manager asking Homebrew for updates).
+
+<details>
+<summary><b>Updates itself</b> · new versions install on their own</summary>
+<br>
+<ul><li>Caddie checks this page's releases every few hours and installs new versions by itself, after checking each one is signed by the same developer. Turn it off in Settings → General to update by hand.</li></ul>
+</details>
+<details>
+<summary><b>Permissions page</b> · see what Caddie can access</summary>
+<br>
+<ul><li>Lists every macOS permission Caddie can use, whether it's allowed, which features need it, and a button to allow it.</li></ul>
+</details>
+<details>
+<summary><b>Private</b> · no account, no analytics</summary>
+<br>
+<ul><li>Caddie uses the network only to check for updates and for the features you turn on that need it, like App Manager asking Homebrew for updates.</li></ul>
+</details>
 
 ## Install
 
