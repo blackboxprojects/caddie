@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/blackboxprojects/caddie/releases/latest/download/Caddie.dmg"><b>⬇ Download Caddie for macOS</b></a><br>
-  <sub>Free · macOS 14 or later · Apple silicon or Intel</sub>
+  <sub>Free · macOS 14 or later · Apple silicon</sub>
 </p>
 
 Caddie replaces a drawer full of single-purpose utilities with one app in your menu bar. A dock, a menu bar tidier, clipboard history, screenshots, a window switcher, a security monitor, an app uninstaller and more, all in one place. Every feature starts switched off: turn on the ones you want and leave the rest alone.
@@ -21,7 +21,7 @@ Caddie replaces a drawer full of single-purpose utilities with one app in your m
 
 ### Utilities
 - **Monitor:** a panel under the Caddie icon showing network traffic by app, CPU, memory, disk, battery and temperature, with alerts like "CPU above 90% for 5 minutes."
-- **Security:** a score out of 100 for this Mac's protections (FileVault, firewall, Gatekeeper and more). It also lists what starts at login, plus extensions and certificates, and alerts you when they change. When macOS blocks an app, you can allow just that app here instead of digging through System Settings. Powered by [osquery](https://osquery.io), built into Caddie, so there's nothing extra to install (Apple silicon).
+- **Security:** a score out of 100 for this Mac's protections (FileVault, firewall, Gatekeeper and more). It also lists what starts at login, plus extensions and certificates, and alerts you when they change. When macOS blocks an app, you can allow just that app here instead of digging through System Settings. Powered by [osquery](https://osquery.io), built into Caddie, so there's nothing extra to install.
 - **Screenshot:** capture an area, a window or a whole screen, including scrolling captures. Then annotate, pin the shot on screen, or copy it.
 - **World Clock:** every city you care about side by side, with a strip of hours to find a meeting time at a glance.
 - **Web Browser:** sends each link to the right browser, based on the app you clicked it in, the site, or both. Hold ⌥ Option while clicking a link to pick a browser.
@@ -59,7 +59,7 @@ Caddie keeps itself up to date (Settings → General → App updates). Automatic
 
 ## Requirements
 
-macOS 14 Sonoma or later, on Apple silicon or Intel. The security checks need Apple silicon.
+A Mac with Apple silicon (M1 or later) running macOS 14 Sonoma or later.
 
 ## Support
 
