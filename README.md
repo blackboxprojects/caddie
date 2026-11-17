@@ -22,7 +22,7 @@ Click a feature to see what it does.
 <details>
 <summary><b>Desktop &amp; Dock</b> · a dock of your own, with window previews</summary>
 <br>
-<img src="docs/desktop-dock.png" width="720" alt="Caddie's Desktop & Dock settings page">
+<img src="docs/desktop-dock.png" width="720" alt="Caddie's dock at the bottom of the screen, with a window preview open above the Code icon">
 <ul><li>A replacement dock you can put on any screen edge, on the main display, the display under the pointer, a chosen display or every display.</li><li>Hover an app to preview its windows.</li><li>Can hide Apple's Dock; the original settings are saved and put back when you turn the option or the feature off, or quit.</li></ul>
 </details>
 <details>
@@ -37,7 +37,7 @@ Click a feature to see what it does.
 <details>
 <summary><b>Monitor</b> · what your Mac is doing, under the Caddie icon</summary>
 <br>
-<img src="docs/monitor.png" width="720" alt="Caddie's Monitor settings page">
+<img src="docs/monitor.png" width="340" alt="Caddie's Monitor panel on the network tab: live speed graph, speed test, VPN, Bluetooth, firewall and AirDrop">
 <ul><li>Click the Caddie icon for a panel with tabs for network, system and security.</li><li>Network: which apps are talking to the internet and where to, with the country of each connection (worked out on your Mac, offline).</li><li>System: CPU, memory, disk, battery and temperature.</li><li>Alerts such as "CPU usage above 90% for 5 minutes", shown as notifications.</li></ul>
 </details>
 <details>
@@ -48,13 +48,13 @@ Click a feature to see what it does.
 <details>
 <summary><b>Screenshot</b> · capture, annotate, pin</summary>
 <br>
-<img src="docs/screenshot.png" width="720" alt="Caddie's Screenshot settings page">
+<img src="docs/screenshot.png" width="620" alt="Caddie's screenshot editor with its annotation tools down the side and colours, Save and Copy along the bottom">
 <ul><li>Shortcuts for an area, a window or the screen under the pointer, plus scrolling captures of long pages.</li><li>An editor for arrows, text, highlights, numbered steps and blur.</li><li>Pin a shot so it floats over your other windows, or copy and drag it anywhere.</li></ul>
 </details>
 <details>
 <summary><b>World Clock</b> · every city side by side</summary>
 <br>
-<img src="docs/world-clock.png" width="720" alt="Caddie's World Clock settings page">
+<img src="docs/world-clock.png" width="640" alt="Caddie's World Clock panel: ten cities with their hours lined up in columns">
 <ul><li>A globe in the menu bar opens your cities with a strip of hours lined up, so each column is the same moment. Hover a column to see every city at that hour.</li><li>Add any city, drag to reorder, and pick a home city, theme and font.</li></ul>
 </details>
 <details>
@@ -81,13 +81,13 @@ Click a feature to see what it does.
 <details>
 <summary><b>Clipboard</b> · history you can search and paste from</summary>
 <br>
-<img src="docs/clipboard.png" width="720" alt="Caddie's Clipboard settings page">
+<img src="docs/clipboard.png" width="400" alt="Caddie's clipboard history ring with search, filters and recent images, links and text">
 <ul><li>Keeps the text, links, images and files you copy, newest first, for as long or as many items as you choose.</li><li>Keep ⌘ held after ⌘V and a ring opens with search and filters, so you can paste anything from your history.</li><li>Pure Paste strips formatting. Nothing leaves your Mac.</li></ul>
 </details>
 <details>
 <summary><b>Action Panel</b> · your favourite actions, one key each</summary>
 <br>
-<img src="docs/action-panel.png" width="720" alt="Caddie's Action Panel settings page">
+<img src="docs/action-panel.png" width="420" alt="Caddie's Action Panel: a grid of numbered actions such as App Manager, Record Area and Clipboard History">
 <ul><li>One shortcut opens a grid of actions from Caddie's features. Press a tile's key, use the arrow keys, or click.</li></ul>
 </details>
 
@@ -111,7 +111,7 @@ Click a feature to see what it does.
 <details>
 <summary><b>Window Switcher</b> · switch between windows, not just apps</summary>
 <br>
-<img src="docs/window-switcher.png" width="720" alt="Caddie's Window Switcher settings page">
+<img src="docs/window-switcher.png" width="720" alt="Caddie's window switcher: a row of apps with Code selected and its two windows shown below">
 <ul><li>⌘Tab shows every window; ⌘` shows the windows of the app in front. Both shortcuts can be changed.</li><li>A quick tap flips between your last two windows.</li></ul>
 </details>
 <details>
