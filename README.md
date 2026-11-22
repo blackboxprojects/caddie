@@ -9,7 +9,7 @@
   <sub>Free · macOS 14 or later · Apple silicon</sub>
 </p>
 
-Caddie replaces a drawer full of single-purpose utilities with one app in your menu bar. A dock, a menu bar tidier, clipboard history, screenshots, a window switcher, a security monitor, an app uninstaller and more, all in one place. Every feature starts switched off: turn on the ones you want and leave the rest alone.
+Caddie replaces a drawer full of single-purpose utilities with one app in your menu bar. A dock, a menu bar tidier, a Dynamic Island around the notch, window snapping, clipboard history, screenshots, a window switcher, a security monitor, an app uninstaller and more, all in one place. Every feature starts switched off: turn on the ones you want and leave the rest alone.
 
 <p align="center"><img src="docs/settings.png" width="760" alt="Caddie's Settings window: the sidebar lists features grouped under Layout, Utilities, Productivity and Housekeeping, each switched on, with the Menu Bar page open on the right"></p>
 
@@ -30,6 +30,16 @@ Click a feature to see what it does.
 <br>
 <img src="docs/menu-bar.png" width="720" alt="Caddie's Menu Bar settings page">
 <ul><li>Sort menu bar icons into Shown, Hidden (revealed when you click the arrow) and Always Hidden (revealed with Option-click).</li><li>Icons can hide again by themselves after a few seconds.</li><li>Pick the arrow's look and switch between standard and compact spacing between icons.</li></ul>
+</details>
+<details>
+<summary><b>Dynamic Island</b> · music, your calendar and tools around the camera notch</summary>
+<br>
+<ul><li>Opens from the notch with widgets for what's playing, your calendar, notifications, downloads, a shelf for files, a scratchpad, a timer, a mirror and Caddie's tools. On a display without a notch it draws a stand-in.</li><li>Arrange its buttons down the sides and along the bottom, and add any Caddie action as a button.</li><li>The closed island shows music, a running timer or a download beside the notch, with optional indicators for the microphone, battery, clipboard, screenshots, a new track and more.</li><li>AI usage shows what Claude Code has used on this Mac: the session window, estimated spending, the trend, and the cost by model and by project. It reads Claude Code's local logs and sends nothing anywhere.</li></ul>
+</details>
+<details>
+<summary><b>Window Snap</b> · tile windows by dragging or with a shortcut</summary>
+<br>
+<ul><li>Drag a window to a screen edge or corner, or press a shortcut, for halves, quarters, thirds and two thirds, plus maximize, centre and restore.</li><li>Hover the green button for a menu of the same layouts, and optionally make a click fill the screen instead of entering full screen.</li><li>Change every layout's size and position, the edge areas that trigger it, the gap between windows and each shortcut.</li></ul>
 </details>
 
 ### Utilities
@@ -79,6 +89,11 @@ Click a feature to see what it does.
 ### Productivity
 
 <details>
+<summary><b>Timers</b> · work and break intervals with a break screen</summary>
+<br>
+<ul><li>Set up timers with a work length, short and long breaks, and a number of sessions. A break screen appears when it's time to rest.</li><li>Start one from the menu bar or from Dynamic Island's Timer widget, which also has a plain countdown and a stopwatch. The menu bar icon can be switched off.</li></ul>
+</details>
+<details>
 <summary><b>Clipboard</b> · history you can search and paste from</summary>
 <br>
 <img src="docs/clipboard.png" width="400" alt="Caddie's clipboard history ring with search, filters and recent images, links and text">
@@ -127,7 +142,7 @@ Click a feature to see what it does.
 <summary><b>Updates itself</b> · new versions install on their own</summary>
 <br>
 <img src="docs/general.png" width="720" alt="Caddie's Updates itself settings page">
-<ul><li>Caddie checks this page's releases every few hours and installs new versions by itself, after checking each one is signed by the same developer. Turn it off in Settings → General to update by hand.</li></ul>
+<ul><li>After an update, a What's New window lists what the version added.</li><li>Caddie checks this page's releases every few hours and installs new versions by itself, after checking each one is signed by the same developer. Turn it off in Settings → General to update by hand.</li></ul>
 </details>
 <details>
 <summary><b>Permissions page</b> · see what Caddie can access</summary>
