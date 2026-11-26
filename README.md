@@ -85,6 +85,11 @@ Click a feature to see what it does.
 <img src="docs/cleaning-mode.png" width="720" alt="Caddie's Cleaning Mode settings page">
 <ul><li>Locks the keyboard and blacks out the screen while you clean them, then gives them back.</li></ul>
 </details>
+<details>
+<summary><b>Keep Awake</b> · stop your Mac going to sleep</summary>
+<br>
+<ul><li>Keeps your Mac awake until you turn it off, or for a set time from 15 minutes to 8 hours, from a mug in the menu bar, a shortcut, or a button in Dynamic Island.</li><li>Can let the display turn off while the Mac keeps working, and turns itself off when the battery gets low. Closing a MacBook's lid still puts it to sleep.</li></ul>
+</details>
 
 ### Productivity
 
