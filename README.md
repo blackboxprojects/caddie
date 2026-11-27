@@ -77,7 +77,7 @@ Click a feature to see what it does.
 <summary><b>Power Actions</b> · more in Finder's right-click menu</summary>
 <br>
 <img src="docs/power-actions.png" width="720" alt="Caddie's Power Actions settings page">
-<ul><li>Right-click in a folder: New File, Open in Terminal, Copy Path and more.</li><li>Right-click files: Copy To and Move To your favourite folders, copy their paths, and more.</li></ul>
+<ul><li>Right-click in a folder: New File, Open in Terminal, Copy Path and more.</li><li>Right-click files: Copy To and Move To your favourite folders, copy their paths, and more.</li><li>File previews: press Space in Finder on a Markdown, JSON, settings or code file to read it laid out and coloured.</li><li>Quick Edit: a button in the preview opens the file in a small editor, right where the preview was.</li></ul>
 </details>
 <details>
 <summary><b>Cleaning Mode</b> · wipe your keyboard and screen safely</summary>
@@ -88,7 +88,7 @@ Click a feature to see what it does.
 <details>
 <summary><b>Keep Awake</b> · stop your Mac going to sleep</summary>
 <br>
-<ul><li>Keeps your Mac awake until you turn it off, or for a set time from 15 minutes to 8 hours, from a mug in the menu bar, a shortcut, or a button in Dynamic Island.</li><li>Can let the display turn off while the Mac keeps working, and turns itself off when the battery gets low. Closing a MacBook's lid still puts it to sleep.</li></ul>
+<ul><li>Keeps your Mac awake until you turn it off, or for a set time from 15 minutes to 8 hours, from Caddie's menu bar icon, a shortcut, or a button in Dynamic Island.</li><li>Can let the display turn off while the Mac keeps working, and turns itself off when the battery gets low. Closing a MacBook's lid still puts it to sleep.</li></ul>
 </details>
 
 ### Productivity
